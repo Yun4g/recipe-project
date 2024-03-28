@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(17, 39%, 86%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.overall{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 25px;
+    align-items: flex-start;
+    margin: 40px;
+    width: 450px;
+    border-radius: 8px;
+    background-color:  hsl(0, 0%, 100%);
+   
+}
+.image{
+    width: 100%;
+    height: 50%;
+    padding-right: 20px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.omelette-recipe {
+   display: block;
+   margin: 20px 0 20px;
+}
+#Simple {
+    color: hsl(330, 78%, 18%);
+     margin-bottom: 20px;
+}
+
+#meal {
+color:  hsl(334, 51%, 9%);
+font-size: 13px;
+font-weight: bold;
+color: hsl(330, 2%, 48%);
+}
+
+.Preparation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color:  hsl(330, 14%, 74%);
+    width: 90%;
+    height: 15vh;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+#time {
+   color: hsl(332, 66%, 30%); 
+   margin: 10px 0 10px;
+   font-size: 15px;
+   font-weight: bold;
+}
+ul  {
+    color: hsl(333, 50%, 17%);
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.Ingredients{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 0 20px;
+}
+#Ingredients-head{
+    font-family: auto;
+    color:  hsl(32, 66%, 21%);
+    font-weight: bold;
+    font-size: 30px;
+}
+.Ingredients ul{
+
+}
+
+.instructon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 0 20px;
+}
+
+#instructon-head {
+    
+    color:  hsl(32, 66%, 21%);
+    font-weight: bold;
+    font-size: 30px;
+}
+.Nutrition {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 0 20px;
+}
+
+#Nutrition-head{
+    color:  hsl(32, 66%, 21%);
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#Nutrition-table{
+    color: rgb(89, 85, 85);
+   font-weight: bold;
+}
+
+table {
+    border-collapse:collapse ;
+    width: 90%;
+}
+
+td {
+    padding: 8px;
+    border-bottom: 5px solid #ddd;
+}
+
+#num {
+    color:  hsl(32, 72%, 35%);
+    font-weight: bold;
+}
